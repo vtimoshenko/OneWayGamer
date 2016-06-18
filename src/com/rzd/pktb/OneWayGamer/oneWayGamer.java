@@ -14,7 +14,7 @@ public class oneWayGamer implements playerSPS {
 
     public oneWayGamer() {
         Random rand = new Random();
-        int st = rand.nextInt(2);
+        int st = rand.nextInt(3);
         switch (st){
             case 0 : step = gameSPS.PAPER; break;
             case 1 : step = gameSPS.SCISSORS; break;
