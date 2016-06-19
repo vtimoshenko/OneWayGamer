@@ -6,6 +6,7 @@ import com.rzd.pktb.SPSGame.playerSPS;
 import java.util.Random;
 
 /**
+ * Игрок всегда делающий один ход в рамках игры
  * Created by SimpleUser on 18.06.2016.
  */
 public class oneWayGamer implements playerSPS {
